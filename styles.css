@@ -1,0 +1,67 @@
+/* Clase para ocultar elementos */
+.oculto {
+    display: none;
+}
+
+/* Clase para mostrar elementos */
+.mostrar {
+    display: block;
+}
+
+/* Opcional: Estilos para el diseño general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#canje-recompensas {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e7f3fe;
+    border: 1px solid #b8daff;
+}
+
+.btn-canjear {
+    margin-left: 1rem;
+    padding: 0.3rem 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-canjear:hover {
+    background-color: #0056b3;
+}
