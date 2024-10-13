@@ -1,3 +1,4 @@
+const db  = require('./conexion.js');
 const btnRegistrarse = document.getElementById('btn-registrarse');
 const btnIniciarSesion = document.getElementById('btn-iniciar-sesion');
 const registroUsuario = document.getElementById('registro-usuario');
